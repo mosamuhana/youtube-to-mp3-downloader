@@ -1,0 +1,30 @@
+{
+  "name": "youtube-to-mp3-downloader",
+  "version": "1.0.0",
+  "description": "Youtube to mp3 downloader",
+  "author": "Mosa Muhana",
+  "license": "ISC",
+  "scripts": {
+    "start": "ts-node test.ts"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "progress-stream": "^2.0.0",
+    "sanitize-filename": "^1.6.3",
+    "ytdl-core": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.18",
+    "@types/node": "^16.0.1",
+    "@types/progress-stream": "^2.0.1",
+    "@types/sanitize-filename": "^1.6.3",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  }
+}
